@@ -131,5 +131,23 @@
 		
 			</section>
 		  </section>
+		  <script type="text/javascript" src="anime.js"></script>
+		  <script>
+		  	anime({
+		  		targets: '.outline',
+		  		opacity: [0,1],
+		  		scale:{
+		  			value:[0,1],
+		  			duration: function(el,i){
+		  				return i*1000 + 1000;
+		  			},
+		  			
+		  		},
+		  		duration: 9000,
+		  		delay: function(el,i){
+		  			return i*1000 + 1000;
+		  		}
+		  	});
+		  </script>
 	</body>
 </html>

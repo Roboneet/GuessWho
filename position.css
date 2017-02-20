@@ -27,8 +27,8 @@ color: #FFFFFF;
 	width: 300px;
 	height: 300px;
 	
-	position: relative ;
-	
+	position: relative;	
+	backface-visibility: hidden;	
 }
 
 @media only screen and (min-width:650px){
@@ -79,6 +79,7 @@ img{
 }
 .card{
 	position: absolute;
+
 	top: 11px;
 	left: 11px;
 	width: 200px;
