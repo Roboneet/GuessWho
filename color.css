@@ -1,0 +1,89 @@
+body{
+	background: #81D4FA;
+		background: -webkit-linear-gradient(#AB47BC,#FFFFFF,#BBDEFB);
+	background: -moz-linear-gradient(#AB47BC,#FFFFFF,#BBDEFB);
+	background: linear-gradient(#212121,#AB47BC,#FFE082,#FFFFFF,#BBDEFB,#81D4FA,#7986CB,#212121);
+}
+
+.zero{
+	background: -webkit-linear-gradient(#FFFFFF,#BBDEFB);
+	background: -moz-linear-gradient(#FFFFFF,#BBDEFB);
+	background: linear-gradient(#FFFFFF,#BBDEFB);
+	background: #009688;
+	background: transparent;
+	
+}
+
+.two .tagline{
+	color: #DCEDC8;
+}
+
+/***
+
+====================================
+
+Garfeild
+
+==================================
+
+***/
+
+
+
+
+#garfield .outline:hover,
+#garfield .back{
+	background: #FFEB3B;
+	
+
+}
+
+
+/***
+
+========================================
+BUBBLES
+
+=======================================
+
+***/
+
+
+#bubbles .outline:hover,
+#bubbles .back{
+	background: #CDDC39;
+
+}
+
+#johnny .outline:hover,
+#johnny .back{
+	background: #26C6DA;
+
+}
+
+/**.two{
+	background: #B3E5FC;
+}
+**/
+
+#grim .outline:hover,
+#grim .back{
+	background: #F44336;
+
+}
+
+
+#togepi .outline:hover,
+#togepi .back{
+	background: #9C27B0;
+
+}
+
+#crazyfrog .outline:hover,
+#crazyfrog .back{
+	background: #78909C;
+}
+
+.tagline{
+	color: #00796B;
+}
